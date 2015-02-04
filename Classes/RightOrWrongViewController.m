@@ -9,7 +9,10 @@
 #import "RightOrWrongViewController.h"
 
 @implementation RightOrWrongViewController
+
 @synthesize greenOrRed;
+
+
 - (IBAction)rightPressed{
 	greenOrRed.backgroundColor = [UIColor greenColor];
 }
